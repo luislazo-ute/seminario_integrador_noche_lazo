@@ -9,7 +9,7 @@ print(persona["nombre"])
 #modificar
 persona["nombre"]="Jose"
 print(persona)
-del persona("edad")
+del persona["edad"]
 print(persona)
 #verificar existencia
 print("nombre" in persona)
