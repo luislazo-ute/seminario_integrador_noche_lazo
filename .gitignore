@@ -1,0 +1,79 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Django
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos estáticos y media
+media/
+staticfiles/
+
+# Secretos y variables
+.env
+.env.*
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage / Testing
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Migrations compiladas
+# =========================
+*.mo
+*.pot
+
+# =========================
+# PostgreSQL dumps
+# =========================
+*.sql
+
+# =========================
+# Archivos temporales
+# =========================
+*.swp
+*.swo
+*~
+
+# =========================
+# Anaconda
+# =========================
+conda-meta/
